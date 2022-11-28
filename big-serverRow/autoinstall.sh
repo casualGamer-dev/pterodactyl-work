@@ -8,5 +8,3 @@ yarn install
 yarn add @emotion/react
 yarn build:production
 php /var/www/pterodactyl/artisan up
-clear
-echo "Done addon has been installed thanks for using this script make sure to star the repo!"

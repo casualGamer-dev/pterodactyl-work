@@ -105,7 +105,7 @@ export default ({ server, className }: { server: Server; className?: string }) =
             :
             (server.isTransferring || server.status) ?
               <div css={tw`mt-2 flex-1 text-center`}>
-                <span css={tw`bg-neutral-910 rounded px-2 py-1 text-white text-xs`}>
+                <span css={tw`bg-neutral-900 rounded px-2 py-1 text-white text-xs`}>
                   {server.isTransferring ?
                     'Transferring'
                     :

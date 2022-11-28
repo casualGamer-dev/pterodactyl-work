@@ -99,7 +99,7 @@ export default ({ server, className }: { server: Server; className?: string }) =
   return (
        <>
         <StatusIndicatorBox as={Link} to={`/server/${server.id}`} className={className} $status={stats?.status}
-            $bg={server.bg}>
+            $bg={"https://media.discordapp.net/attachments/1017210942511120425/1042896784617381958/4k.png?width=758&height=427"}>
             <div css={tw`flex items-center w-full px-16 py-10`} className='bg-image'>
             <div css={tw`w-full overflow-hidden truncate`}>
                     <div css={tw`flex flex-row-reverse sm:flex-col sm:justify-center justify-between items-center p-1`}>

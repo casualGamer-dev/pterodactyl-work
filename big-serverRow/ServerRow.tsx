@@ -40,7 +40,7 @@ const StatusIndicatorBox = styled(GreyRowBox) <{ $status: ServerPowerState | und
     & .status-bar {
         ${tw`bg-red-500 w-4 h-4 rounded-full transition-all duration-150`};
 
-        ${({ $status }) => (!$status || $status === 'offline') ? tw`bg-red-910` : ($status === 'running' ? tw`bg-green-910` : tw`bg-yellow-910`)};
+        ${({ $status }) => (!$status || $status === 'offline') ? tw`bg-red-900` : ($status === 'running' ? tw`bg-green-900` : tw`bg-yellow-900`)};
     }
 `;
 
